@@ -33,14 +33,3 @@ C:\Users\ayl\Documents\Visual Studio 2017\source\repos\Project_8408_5671_dotNet5
 C:\Users\ayl\Documents\Visual Studio 2017\source\repos\Project_8408_5671_dotNet5779\DS\obj\Debug\DS.csproj.CopyComplete
 C:\Users\ayl\Documents\Visual Studio 2017\source\repos\Project_8408_5671_dotNet5779\DS\obj\Debug\DS.dll
 C:\Users\ayl\Documents\Visual Studio 2017\source\repos\Project_8408_5671_dotNet5779\DS\obj\Debug\DS.pdb
-C:\Users\didi\Documents\Visual Studio 2017\source\project\DS\bin\Debug\DS.dll.config
-C:\Users\didi\Documents\Visual Studio 2017\source\project\DS\bin\Debug\DS.dll
-C:\Users\didi\Documents\Visual Studio 2017\source\project\DS\bin\Debug\DS.pdb
-C:\Users\didi\Documents\Visual Studio 2017\source\project\DS\bin\Debug\BE.dll
-C:\Users\didi\Documents\Visual Studio 2017\source\project\DS\bin\Debug\BE.pdb
-C:\Users\didi\Documents\Visual Studio 2017\source\project\DS\bin\Debug\BE.dll.config
-C:\Users\didi\Documents\Visual Studio 2017\source\project\DS\obj\Debug\DS.csprojAssemblyReference.cache
-C:\Users\didi\Documents\Visual Studio 2017\source\project\DS\obj\Debug\DS.csproj.CoreCompileInputs.cache
-C:\Users\didi\Documents\Visual Studio 2017\source\project\DS\obj\Debug\DS.csproj.CopyComplete
-C:\Users\didi\Documents\Visual Studio 2017\source\project\DS\obj\Debug\DS.dll
-C:\Users\didi\Documents\Visual Studio 2017\source\project\DS\obj\Debug\DS.pdb

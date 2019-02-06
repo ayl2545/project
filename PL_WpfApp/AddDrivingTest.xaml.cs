@@ -22,27 +22,32 @@ namespace PL_WpfApp
     public partial class AddDrivingTest : Window
     {
         private static BL.IBL bl = BL.FactorySingletonBL.getInstance();
-        BE.DrivingTest drivingTest;
+        BE.DrivingTest drivingTest = new BE.DrivingTest();
         public AddDrivingTest()
         {
+            
             InitializeComponent();
-            drivingTest = new BE.DrivingTest { Date = new DateTime(2000, 1, 1),  carType = new CarType(), requirements=new Requirements(),StartingPoint=new Address() };
-            this.DataContext = drivingTest;
-            this.carTypeComboBox.ItemsSource = Enum.GetValues(typeof(BE.carType));
-            this.gearTypeComboBox.ItemsSource = Enum.GetValues(typeof(BE.GearType));
+            drivingTest.Date = DateTime.Today;
+            drivingTest.Date = drivingTest.Date.AddHours(9);
+            DataContext = drivingTest;
+           
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            //drivingTest=new BE.DrivingTest() {Trainee_ID=this.trainee_IDTextBox.Text,Date=(DateTime)this.dateDatePicker }
+            //drivingTest = (BE.DrivingTest)DataContext;
             try
             {
+                drivingTest.Date = drivingTest.Date.AddHours(9);
                 bl.AddDrivingTest(drivingTest);
             }
             catch (Exception x)
             {
 
-                MessageBox.Show(x.ToString());
+                MessageBox.Show(x.Message);
             }
         }
+
     }
 }

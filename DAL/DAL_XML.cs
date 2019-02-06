@@ -19,8 +19,6 @@ namespace DAL
                 CreateFiles();
             else
                 LoadData();
-            
-           
 
         }
 
@@ -66,7 +64,10 @@ namespace DAL
                 testerRoot = XElement.Load(testerPath);
                 testRoot = XElement.Load(testPath);
 
+
                
+
+
             }
             catch
             {

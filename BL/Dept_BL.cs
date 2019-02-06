@@ -116,7 +116,7 @@ namespace BL
             if (numOfTests(currentTrainee) > 0)
                 TestsInThePast(currentTrainee);
             //האם יש בוחן זמין
-            Tester currentTester = findTester(drivingTest.Tester_ID);
+            Tester currentTester = findATester(drivingTest);
             if (currentTester == null)
                 throw new Exception("There are no free tasters for this hour. Please create a new test for a different time");
 
