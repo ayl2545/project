@@ -13,7 +13,7 @@ namespace BE
         public CarType Clone()
         {
             CarType result = new CarType
-            {
+            { //test
                 carType = this.carType,
                 gearType = this.gearType
             };

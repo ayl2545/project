@@ -475,4 +475,29 @@
       <gearType>Automatic</gearType>
     </CarTrained>
   </Trainee>
+  <Trainee>
+    <ID>99999</ID>
+    <Name>
+      <FirstName />
+      <LastName />
+    </Name>
+    <DayOfBirth>01/01/2000 00:00:00</DayOfBirth>
+    <Gender>MALE</Gender>
+    <Address>
+      <City />
+      <StreetName />
+      <Number>0</Number>
+    </Address>
+    <PhoneNumber />
+    <LessonsNb>23</LessonsNb>
+    <DrivingSchool />
+    <Instructor>
+      <FirstName />
+      <LastName />
+    </Instructor>
+    <CarTrained>
+      <carType>Private</carType>
+      <gearType>Automatic</gearType>
+    </CarTrained>
+  </Trainee>
 </trainees>
