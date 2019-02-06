@@ -192,3 +192,5 @@ C:\Users\didi\Documents\Visual Studio 2017\source\project\PL_WpfApp\obj\Debug\PL
 C:\Users\didi\Documents\Visual Studio 2017\source\project\PL_WpfApp\obj\Debug\PL_WpfApp.csproj.CopyComplete
 C:\Users\didi\Documents\Visual Studio 2017\source\project\PL_WpfApp\obj\Debug\PL_WpfApp.exe
 C:\Users\didi\Documents\Visual Studio 2017\source\project\PL_WpfApp\obj\Debug\PL_WpfApp.pdb
+C:\Users\didi\Documents\Visual Studio 2017\source\project\PL_WpfApp\obj\Debug\updateTrainee2.g.cs
+C:\Users\didi\Documents\Visual Studio 2017\source\project\PL_WpfApp\obj\Debug\updateTrainee2.baml

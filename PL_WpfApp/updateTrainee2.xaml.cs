@@ -11,46 +11,33 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using BE;
-using BL;
 
 namespace PL_WpfApp
 {
     /// <summary>
-    /// Interaction logic for UpdateTrainee.xaml
+    /// Interaction logic for updateTrainee2.xaml
     /// </summary>
-    public partial class UpdateTrainee : Window
+    public partial class updateTrainee2 : Window
     {
         private static BL.IBL bl = BL.FactorySingletonBL.getInstance();
-        BE.Trainee trainee;
-        public UpdateTrainee()
+        public updateTrainee2()
         {
             InitializeComponent();
-           
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-               trainee= bl.findTrainee(iDTextBox.Text);
-                updateTrainee2 UpdateTrainee2 = new updateTrainee2();
-                UpdateTrainee2.DataContext = trainee;
-                UpdateTrainee2.Show();
+                bl.UpdateTrainee((BE.Trainee)this.DataContext);
                 Close();
-               
             }
             catch (Exception x)
             {
+
                 MessageBox.Show(x.Message);
-             
+
             }
-
-            
         }
-
-    
-
-       
     }
 }

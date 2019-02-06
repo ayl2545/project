@@ -32,5 +32,6 @@ namespace BL
         List<DrivingTest> testsInSameDay(DateTime d);
         int numOfAllTests(Trainee trainee);
         IEnumerable<IGrouping<int, Trainee>> traineesByNumOfTests(bool sorted = false);
+        Trainee findTrainee(string id);
     }
 }
